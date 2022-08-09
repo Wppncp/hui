@@ -1,0 +1,389 @@
+@sfont:rgb(85, 84, 84);
+
+.header{
+    // margin: -0.25rem 0 0 0;
+    width: 100%;
+    height: .875rem;
+    position: fixed;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+    top: 0;
+    // background: #dfb679;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    z-index: 5;
+    .logoBox{
+        width: 1.833333rem;
+        height: .458333rem;
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+        .logo{
+            flex: 1;
+             background: url(../images/index/Mai\ Tai.png) no-repeat;
+            background-size: contain;
+            margin-left: 10%;
+        }
+        .logoFont{
+            display: flex;
+            align-items:flex-start;
+            flex-direction: column;
+            vertical-align: middle;
+            text-shadow: .025rem .008333rem #f3cccc;
+            // line-height: 100%;
+            // margin-top: 5%;
+            padding-right: 20%;
+            color: #c40000;
+            flex: 2;
+            .font{
+                font-size: .208333rem;
+            }
+            .com{
+                align-self: flex-start;
+                margin-left: 5%;
+                font-size: .125rem;
+            }
+        }
+    }
+    .seach{
+        flex: 3;
+        height: .458333rem;
+        font-size: .1rem;
+        form{
+            display: flex;
+            width: 60%;
+            margin: .083333rem auto;
+            margin-bottom: 0;
+            .seachBox{
+                flex: 8;
+                height:.258333rem ;
+                border: .016667rem  solid #c40000;
+                background: #e7e7e7;
+                border-radius: .05rem 0 0 .05rem;
+                outline: none;
+                padding-left: .083333rem;
+            }
+            .seach_sumbit{
+                flex: 2;
+                overflow: hidden;
+                width: .708333rem;
+                height: .258333rem;
+                color: #e7e7e7;
+                background-color: #c40000;
+                font-size: .133333rem;
+                border: none;
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+        }
+        ul{
+            color: @sfont;
+            list-style: none;
+            height: .166667rem;
+            width: 3.5rem;
+            margin: .025rem auto;
+            display: flex;
+            // font-size: .041667rem;
+            overflow: hidden;
+            li{
+                img{
+                    width: 20%;
+                    height: 60%;
+                }
+                vertical-align: middle;
+                float: left;
+                flex: 1;
+                text-align: center;
+                font-size: .041667rem ;
+                &:hover{
+                    cursor: pointer;
+                    color: #c40000;
+                }
+            }
+        }
+    }
+    .loginaer{
+        width: 1.833333rem;
+        height: .458333rem;
+        flex: 1;
+        .login{
+            margin: .083333rem  auto auto 15%;
+            width: 1.166667rem;
+            height: 0.279rem;
+            background: rgba(211, 209, 209, 0.486);
+            display: flex;
+            align-items: center;
+            border: none;
+            overflow: hidden;
+            &:hover{
+                cursor: pointer;
+                background-color: rgb(236, 231, 183);
+            }
+            div{
+                flex: 1;
+                background: url(../images/index/登录注册.png) no-repeat;
+                width: 100%;
+                height: 0.209rem;  
+                background-size:contain ;
+            }
+            ol{ 
+                font-size: .083333rem ;
+                color: tomato;
+                padding: 0;
+                margin: 0 0 0 -0.166667rem;
+                flex: 3;
+                
+            }
+        }
+    }
+}
+
+section{
+    margin:  .833333rem 0 .833333rem 0 ;
+    // height: 800px;
+
+    ul{
+        li{
+            // background-color: #ffffff;
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+            input{
+                flex: 0.5;
+            }
+            .remove{
+                flex: 0.5;
+                height: .125rem;
+                &:hover{
+                    background-size: 100% 100%;
+                    background: url(../images/shoppingCart/删除开.png) no-repeat;
+                    cursor: pointer;
+                }
+            }
+            img{
+                flex: 2;
+                height: 1.65rem;
+            }
+            p{
+                flex: 4;
+                overflow: hidden;
+                font-size: .141667rem;
+            }
+            h1{
+                flex: 1;
+                color: red;
+                font-size: .166667rem;
+                overflow: hidden;
+            }
+            .count{
+                flex: 1.1;
+                display: flex;
+                border: 2px solid rgb(245, 113, 4);
+                border-radius: 8px;
+                text-align: center;
+                dt{
+                    flex: 1;
+                    border: 1px solid rgb(255, 145, 0);
+                    &:hover{
+                        cursor: pointer;
+                    }
+                    // width: 10px;
+                }
+            }
+        }
+    }
+    .sum{
+        display: flex;
+        list-style: none;
+        align-items: center;
+        margin: 0 .416667rem;
+        width:80%;
+        p{
+            font-size: .125rem;
+            flex: 2;
+        }
+        div{
+            flex: 5.5;
+        }
+        span{
+            flex: 1.5;
+            font-size: .158333rem;
+            text-align: center;
+        }
+        button{
+            flex: 1;
+            background-color: rgb(253, 81, 2);
+            color: #ffff;
+            text-align: center;
+            border-radius: 5px 5px;
+            height: .333333rem;
+            border: none;
+            outline: none;
+            font-size: .166667rem;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }   
+    .retreat{
+        margin-top: .356667rem;
+        width: .256667rem;
+        height: .256667rem;
+        background: url(../images/shoppingCart/后退.png) no-repeat;
+        background-size: 100% 100%;
+    }
+}
+
+hr{
+    margin: .25rem 0 0 0;
+}
+footer{
+    padding-top: .25rem;
+    background-color: #f0ece7;
+    ul{
+        display: flex;
+        justify-content: center;
+        li{
+            flex: 1;
+            h5{
+                margin-left: 20%;
+            }
+            .ture{
+                float: left;
+                margin-right: .066667rem;
+                width: .416667rem;
+                height: .416667rem;
+                background: url(../images/index/正品.gif) no-repeat ;
+                background-size: 100% 100%;
+            }
+            .fast{
+                float: left;
+                margin-right: .066667rem;
+                width: .416667rem;
+                height: .416667rem;
+                background: url(../images/index/物流.gif) no-repeat ;
+                background-size: 100% 100%;
+            }
+            .after-sales{
+                float: left;
+                margin-right: .066667rem;
+                width: .416667rem;
+                height: .416667rem;
+                background: url(../images/index/售后.gif) no-repeat ;
+                background-size: 100% 100%;
+            }
+            .help{
+                float: left;
+                margin-right: .066667rem;
+                width: .416667rem;
+                height: .416667rem;
+                background: url(../images/index/帮助.gif) no-repeat ;
+                background-size: 100% 100%;
+            }
+            .service_text p {
+                font-size: .1rem;
+                overflow: hidden;
+            }
+        }
+    }
+    .mod_help{
+        display: flex;
+        margin-top: .125rem;
+        dl{
+            flex: 1;
+           .qq{
+               padding-left: 20%;
+               height: .416667rem;
+               img{
+                   width: 30%;
+                   height: 100%;
+               }
+           }
+            h5{
+                padding-left: 20%;
+                margin-bottom: .083333rem;
+            }
+            dt{
+                padding-left: 20%;
+                font-size: .116667rem;
+                margin-bottom: .083333rem;
+                color: @sfont;
+                &:hover{
+                    color: red;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .copyright{
+        ul{
+            margin: 0 auto;
+            width: 30%;
+            li{
+                text-align: center;
+                font-size: .083333rem;
+               border-right: 1px solid @sfont;
+               &:hover{
+                color: red;
+                cursor: pointer;
+            }
+            }
+        }
+        h3{
+            text-align: center;
+            color: red;
+        }
+    }
+    .retop{
+    background-color: sienna;
+    color: sienna;
+    width: .25rem;
+    height: .25rem;
+    position: fixed;
+    bottom: .583333rem;
+    right: .166667rem; 
+    background: url(../images/index/返回顶部.png) no-repeat;
+    // background-size: 80% 80%;
+    border-radius: 50% 50%;
+    display: none;
+    }
+}
+.goodsBox {
+    li {
+        display: flex;
+
+        .input_radio {
+            flex: 0.5;
+        }
+        .remove{
+            flex: 0.2;
+            background: url(../images/shoppingCart/删除.png) no-repeat;
+            background-size: 40%;
+            &:hover{
+                background-size: 50% 50%;
+                background: url(../images/shoppingCart/删除开.png) no-repeat;
+                cursor: pointer;
+                transform: translate(-13px);
+            }
+        }
+        .picture {
+            flex: 2.5;
+            max-width: 300px;
+            max-height: 200px;
+        }
+        .shopName{
+            flex: 1;
+            padding-left: 5px;
+            font-size: 0.15rem;
+        }
+        .discribe {
+            flex: 2;
+            font-size: 0.11rem;
+        }
+
+        .price {flex: 0.5;}
+
+        .count {flex: 1.5;}
+
+    }
+}

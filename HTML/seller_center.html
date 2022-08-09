@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>惠生活，致敬每个拼搏的梦想</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link href="../css/seller_center.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body onselectstart="return false" oncontextmenu="return false">
+    <div id="header">
+        <h1><img src="../images/index/Mai Tai.png" />惠生活</h1>
+    </div>
+
+    <!-- <div id="left">
+        <h3><img src="../images/seller_center/houtai1_03.gif" />商品管理<img src="../images/seller_center/houtai1_03.gif" /></h3>
+        <ul>
+            <li><img src="../images/seller_center/houtai_03.gif" /><a href="shopym.html">填加商品</a></li>
+            <li><img src="../images/seller_center/houtai_03.gif" /><a href="lookshopym.html">编辑商品</a></li>
+        </ul>
+        <h3><img src="../images/seller_center/houtai1_03.gif" />类别管理<img src="../images/seller_center/houtai1_03.gif" />
+        </h3>
+        <ul>
+            <li><img src="../images/seller_center/houtai_03.gif"  /><a href="lookleibieym.html">编辑类别</a><a
+                    href="lookleibieym.php"></a></li>
+            <li><img src="../images/seller_center/houtai_03.gif" /><a href="leibieym.html">填加类别</a></li>
+        </ul>
+        <h3><img src="../images/seller_center/houtai1_03.gif" />会员管理<img src="../images/seller_center/houtai1_03.gif" />
+        </h3>
+        <ul>
+            <li><img src="../images/seller_center/houtai_03.gif" /><a href="user.html">会员管理</a></li>
+        </ul>
+        <h3><img src="../images/seller_center/houtai1_03.gif" />订单管理<img src="../images/seller_center/houtai1_03.gif" />
+        </h3>
+        <ul>
+            <li><img src="../images/seller_center/houtai_03.gif" /><a href="dingdan.html">编辑订单</a></li>
+        </ul>
+        <h3><img src="../images/seller_center/houtai1_03.gif" />公告管理<img src="../images/seller_center/houtai1_03.gif" />
+        </h3>
+        <ul>
+            <li><img src="../images/seller_center/houtai_03.gif" /><a href="gonggao.html">编辑公告</a></li>
+            <li><img src="../images/seller_center/houtai_03.gif" /><a href="addgonggao.html">添加公告</a></li>
+        </ul>
+    </div> -->
+    <div id="right">
+        <p style="background:#f8a100; padding-left:10px; color:#FFF;" class="addShop">您当前的位置：商品管理－＞填加商品</p>
+        <form action="" method="post" onsubmit="return sjyz(this)" enctype="multipart/form-data">
+            <table width="670" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td bgcolor="#666666">
+                        <table width="670" cellspacing="1">
+                            <tr>
+                                <td bgcolor="#FFFFFF">
+                                    <div>商品名称:</div>
+                                </td>
+                                <td bgcolor="#FFFFFF"><input name="shop_name" type="text" id="name" /></td>
+                            </tr>
+                            <tr>
+                                <td bgcolor="#FFFFFF">
+                                    <div>商品编码:</div>
+                                </td>
+                                <td bgcolor="#FFFFFF"><input name="code" type="text" id="code" value=""/></td>
+                            </tr>
+                            <tr>
+                                <td bgcolor="#FFFFFF">
+                                    <div>商品类型:</div>
+                                </td>
+                                <td bgcolor="#FFFFFF"><select name="lx" style="margin-left:10px;" class="lx">
+                                        <option value="clothes">服装类</option>
+                                        <option value="drinks">饮品类</option>
+                                        <option value="makeup">美妆类</option>
+                                        <option value="group_purchase">团购</option>
+                                        <option value="bidding">竞价</option>
+                                        <option value="global_purchase">全球购</option>
+                                        <option value="delicious_food">美食类</option>
+                                        <option value="household_products">家居类</option>
+                                        <option value="electronics">电子类</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td bgcolor="#FFFFFF">
+                                    <div>法定代表人:</div>
+                                </td>
+                                <td bgcolor="#FFFFFF"><input name="zz" type="text" id="zz" /></td>
+                            </tr>
+                            <tr bgcolor="#FFFFFF">
+                                <td>
+                                    <div>发布商铺:</div>
+                                </td>
+                                <td><input name="cbs" type="text" id="cbs" /></td>
+                            </tr>
+                            <tr bgcolor="#FFFFFF">
+                                <td>
+                                    <div>发布时间:</div>
+                                </td>
+                                <td><input type="date"><!--<select name="nian" style="margin-left:10px;">
+                                        <option>2021</option>
+                                        <option>2020</option>
+                                        <option>2019</option>
+                                        <option>2018</option>
+                                        <option>2017</option>
+                                    </select>
+                                    年
+                                    <select name="yue">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                        <option>6</option>
+                                        <option>7</option>
+                                        <option>8</option>
+                                        <option>9</option>
+                                        <option>10</option>
+                                        <option>11</option>
+                                        <option>12</option>
+                                    </select>
+                                    月
+                                    <select name="ri">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                        <option>6</option>
+                                        <option>7</option>
+                                        <option>8</option>
+                                        <option>9</option>
+                                        <option>10</option>
+                                        <option>11</option>
+                                        <option>12</option>
+                                        <option>13</option>
+                                        <option>14</option>
+                                        <option>15</option>
+                                        <option>16</option>
+                                        <option>17</option>
+                                        <option>18</option>
+                                        <option>19</option>
+                                        <option>20</option>
+                                        <option>21</option>
+                                        <option>22</option>
+                                        <option>23</option>
+                                        <option>24</option>
+                                        <option>25</option>
+                                        <option>26</option>
+                                        <option>27</option>
+                                        <option>28</option>
+                                        <option>29</option>
+                                        <option>30</option>
+                                    </select>
+                                    日-->
+                                </td>
+                            </tr>
+                            <tr bgcolor="#FFFFFF">
+                                <td>
+                                    <div>现在价格:</div>
+                                </td>
+                                <td><input name="jg" type="text" id="jg" />
+                                    <font color="#FF0000">元</font>
+                                </td>
+                            </tr>
+                            <tr bgcolor="#FFFFFF">
+                                <td>
+                                    <div>原来价格:</div>
+                                </td>
+                                <td><input name="zk" type="text" id="zk" />
+                                    <font style="color:#F00">提示:系统自动换算折扣</font>
+                                </td>
+                            </tr>
+                            <tr bgcolor="#FFFFFF">
+                                <td>
+                                    <div>商品图片:</div><div>折扣图：</div>
+                                </td>
+                                <td><input name="file[]" type="file" multiple="multiple" id="tp" />
+                                    <!--<input name="discount" type="file" id="discount" />-->
+                                </td>
+                            </tr>
+                            <tr bgcolor="#FFFFFF">
+                                <td>
+                                    <div>商品描述:</div>
+                                </td>
+                                <td><textarea name="jj" cols="30" rows="5" style="margin-left:10px;"></textarea></td>
+                            </tr>
+                            <tr bgcolor="#FFFFFF">
+                                <td>
+                                    <div>是否推荐:</div>
+                                </td>
+                                <td><input name="sftj" type="radio" value="1" checked="checked" />
+                                    是
+                                    <input name="sftj" type="radio" value="0" />
+                                    否
+                                </td>
+                            </tr>
+                            <tr bgcolor="#FFFFFF">
+                                <td>
+                                    <div>图书预售:</div>
+                                </td>
+                                <td><input name="newbook" type="radio" value="1" checked="checked" />
+                                    是
+                                    <input name="newbook" type="radio" value="0" />
+                                    否
+                                </td>
+                            </tr>
+                            <tr style="text-align:center;">
+                                <td colspan="2" bgcolor="#FFFFFF" ;><input type="submit" name="ok" value="提&nbsp;交"
+                                        style=" margin-right:10px;" />
+                                    <input type="reset" value="重&nbsp;置" />
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+    <div id="footer">
+        <p>地址：仅供学习 版权所有：仅供学习</p>
+         <p>互联网信息服务备案编号：仅供学习  技术支持：仅供学习</p>
+    </div>
+    <h2 class="retreat"><img src="../images/shoppingCart/后退.png" alt=""></h2>
+    <script src="../js/seller_center.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,235 @@
+header {
+  width: 100%;
+  height: 0.808333rem;
+  display: flex;
+}
+header .logoBox {
+  flex: 2;
+  display: flex;
+}
+header .logoBox .logo {
+  flex: 1.5;
+  width: 0.666667rem;
+  height: 0.666667rem;
+  margin-top: 3%;
+  margin-left: 3%;
+  background: url(../images/index/Mai\ Tai.png) no-repeat;
+  background-size: 100% 100%;
+}
+header .logoBox div {
+  flex: 3;
+  padding-top: 5%;
+  text-shadow: 0.025rem 0.008333rem #f3cccc;
+  color: #c40000;
+  vertical-align: middle;
+}
+header .logoBox div h2 {
+  font-size: 0.266667rem;
+}
+header .logoBox div h4 {
+  font-size: 0.141667rem;
+}
+header .blank {
+  flex: 8;
+}
+header .blank p {
+  vertical-align: middle;
+  float: right;
+  font-size: 0.125rem;
+  margin: 0.228333rem;
+  color: #555454;
+}
+section {
+  width: 100%;
+  height: 3.333333rem;
+  display: flex;
+  align-items: center;
+}
+section form {
+  width: 35%;
+  height: 60%;
+  margin: 0 auto;
+  line-height: 2;
+  overflow: hidden;
+}
+section form dl {
+  font-size: 0.125rem;
+  display: flex;
+  height: 0.283333rem;
+  margin-top: 5%;
+}
+section form dl dt {
+  flex: 3;
+  width: 100%;
+  background-color: #ffffff;
+  border: 1px  solid black;
+  border-left: none;
+  color: tomato;
+  text-align: center;
+  overflow: hidden;
+}
+section form dl dt:hover {
+  cursor: pointer;
+  color: #0cc9f8;
+}
+section form dl select {
+  flex: 3;
+  width: 100%;
+  border: 1px solid black;
+  margin: 0 -1px -1px 0;
+  color: #555454;
+  outline: none;
+}
+section form dl select:hover {
+  cursor: pointer;
+}
+section form dl input {
+  outline: none;
+  flex: 5;
+  width: 50%;
+  border: 1px solid black;
+  padding: 0 0 0 0.083333rem;
+}
+section form dl .tel {
+  margin: 0 0 -1px 0;
+}
+section form dl .pas {
+  flex: 8;
+}
+section form dl .pascode {
+  border-right: none;
+}
+section form dl p {
+  flex: 2;
+  color: #555454;
+  text-align: end;
+  overflow: hidden;
+}
+section form .button {
+  font-size: 0.125rem;
+  width: 80%;
+  height: 13%;
+  margin: 5% 20% 0 20%;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+  background-image: linear-gradient(45deg, #ffcb5a, rgba(255, 81, 0, 0.842));
+}
+section form .agreement {
+  width: 100%;
+  margin: 5% 20% 0 20%;
+  color: #555454;
+  font-size: 0.133333rem;
+}
+section form .agreement a {
+  color: tomato;
+  cursor: pointer;
+}
+footer {
+  padding-top: 0.25rem;
+  background-color: #f0ece7;
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+}
+footer ul li {
+  flex: 1;
+}
+footer ul li h5 {
+  margin-left: 20%;
+}
+footer ul li .ture {
+  float: left;
+  margin-right: 0.066667rem;
+  width: 0.416667rem;
+  height: 0.416667rem;
+  background: url(../images/index/正品.gif) no-repeat;
+  background-size: 100% 100%;
+}
+footer ul li .fast {
+  float: left;
+  margin-right: 0.066667rem;
+  width: 0.416667rem;
+  height: 0.416667rem;
+  background: url(../images/index/物流.gif) no-repeat;
+  background-size: 100% 100%;
+}
+footer ul li .after-sales {
+  float: left;
+  margin-right: 0.066667rem;
+  width: 0.416667rem;
+  height: 0.416667rem;
+  background: url(../images/index/售后.gif) no-repeat;
+  background-size: 100% 100%;
+}
+footer ul li .help {
+  float: left;
+  margin-right: 0.066667rem;
+  width: 0.416667rem;
+  height: 0.416667rem;
+  background: url(../images/index/帮助.gif) no-repeat;
+  background-size: 100% 100%;
+}
+footer ul li .service_text p {
+  font-size: 0.1rem;
+  overflow: hidden;
+}
+footer .mod_help {
+  display: flex;
+  margin-top: 0.125rem;
+}
+footer .mod_help dl {
+  flex: 1;
+}
+footer .mod_help dl .qq {
+  padding-left: 20%;
+  height: 0.416667rem;
+}
+footer .mod_help dl .qq img {
+  width: 30%;
+  height: 100%;
+}
+footer .mod_help dl h5 {
+  padding-left: 20%;
+  margin-bottom: 0.083333rem;
+}
+footer .mod_help dl dt {
+  padding-left: 20%;
+  font-size: 0.116667rem;
+  margin-bottom: 0.083333rem;
+  color: #555454;
+}
+footer .mod_help dl dt:hover {
+  color: red;
+  cursor: pointer;
+}
+footer .copyright ul {
+  margin: 0 auto;
+  width: 30%;
+}
+footer .copyright ul li {
+  text-align: center;
+  font-size: 0.083333rem;
+  border-right: 1px solid #555454;
+}
+footer .copyright ul li:hover {
+  color: red;
+  cursor: pointer;
+}
+footer .copyright h3 {
+  text-align: center;
+  color: red;
+}
+footer .retop {
+  background-color: sienna;
+  color: sienna;
+  width: 0.25rem;
+  height: 0.25rem;
+  position: fixed;
+  bottom: 0.583333rem;
+  right: 0.166667rem;
+  background: url(../images/index/返回顶部.png) no-repeat;
+  border-radius: 50% 50%;
+  display: none;
+}

@@ -1,0 +1,368 @@
+.header {
+  width: 100%;
+  height: 0.875rem;
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  z-index: 5;
+}
+.header .logoBox {
+  width: 1.833333rem;
+  height: 0.458333rem;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+.header .logoBox .logo {
+  flex: 1;
+  background: url(../images/index/Mai\ Tai.png) no-repeat;
+  background-size: contain;
+  margin-left: 10%;
+}
+.header .logoBox .logoFont {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  vertical-align: middle;
+  text-shadow: 0.025rem 0.008333rem #f3cccc;
+  padding-right: 20%;
+  color: #c40000;
+  flex: 2;
+}
+.header .logoBox .logoFont .font {
+  font-size: 0.208333rem;
+}
+.header .logoBox .logoFont .com {
+  align-self: flex-start;
+  margin-left: 5%;
+  font-size: 0.125rem;
+}
+.header .seach {
+  flex: 3;
+  height: 0.458333rem;
+  font-size: 0.1rem;
+}
+.header .seach form {
+  display: flex;
+  width: 60%;
+  margin: 0.083333rem auto;
+  margin-bottom: 0;
+}
+.header .seach form .seachBox {
+  flex: 8;
+  height: 0.258333rem;
+  border: 0.016667rem solid #c40000;
+  background: #e7e7e7;
+  border-radius: 0.05rem 0 0 0.05rem;
+  outline: none;
+  padding-left: 0.083333rem;
+}
+.header .seach form .seach_sumbit {
+  flex: 2;
+  overflow: hidden;
+  width: 0.708333rem;
+  height: 0.258333rem;
+  color: #e7e7e7;
+  background-color: #c40000;
+  font-size: 0.133333rem;
+  border: none;
+}
+.header .seach form .seach_sumbit:hover {
+  cursor: pointer;
+}
+.header .seach ul {
+  color: #555454;
+  list-style: none;
+  height: 0.166667rem;
+  width: 3.5rem;
+  margin: 0.025rem auto;
+  display: flex;
+  overflow: hidden;
+}
+.header .seach ul li {
+  vertical-align: middle;
+  float: left;
+  flex: 1;
+  text-align: center;
+  font-size: 0.041667rem;
+}
+.header .seach ul li img {
+  width: 20%;
+  height: 60%;
+}
+.header .seach ul li:hover {
+  cursor: pointer;
+  color: #c40000;
+}
+.header .loginaer {
+  width: 1.833333rem;
+  height: 0.458333rem;
+  flex: 1;
+}
+.header .loginaer .login {
+  margin: 0.083333rem auto auto 15%;
+  width: 1.166667rem;
+  height: 0.279rem;
+  background: rgba(211, 209, 209, 0.486);
+  display: flex;
+  align-items: center;
+  border: none;
+  overflow: hidden;
+}
+.header .loginaer .login:hover {
+  cursor: pointer;
+  background-color: #ece7b7;
+}
+.header .loginaer .login div {
+  flex: 1;
+  background: url(../images/index/登录注册.png) no-repeat;
+  width: 100%;
+  height: 0.209rem;
+  background-size: contain ;
+}
+.header .loginaer .login ol {
+  font-size: 0.083333rem;
+  color: tomato;
+  padding: 0;
+  margin: 0 0 0 -0.166667rem;
+  flex: 3;
+}
+section {
+  margin: 0.833333rem 0 0.833333rem 0;
+}
+section ul li {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+section ul li input {
+  flex: 0.5;
+}
+section ul li .remove {
+  flex: 0.5;
+  height: 0.125rem;
+}
+section ul li .remove:hover {
+  background-size: 100% 100%;
+  background: url(../images/shoppingCart/删除开.png) no-repeat;
+  cursor: pointer;
+}
+section ul li img {
+  flex: 2;
+  height: 1.65rem;
+}
+section ul li p {
+  flex: 4;
+  overflow: hidden;
+  font-size: 0.141667rem;
+}
+section ul li h1 {
+  flex: 1;
+  color: red;
+  font-size: 0.166667rem;
+  overflow: hidden;
+}
+section ul li .count {
+  flex: 1.1;
+  display: flex;
+  border: 2px solid #f57104;
+  border-radius: 8px;
+  text-align: center;
+}
+section ul li .count dt {
+  flex: 1;
+  border: 1px solid #ff9100;
+}
+section ul li .count dt:hover {
+  cursor: pointer;
+}
+section .sum {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin: 0 0.416667rem;
+  width: 80%;
+}
+section .sum p {
+  font-size: 0.125rem;
+  flex: 2;
+}
+section .sum div {
+  flex: 5.5;
+}
+section .sum span {
+  flex: 1.5;
+  font-size: 0.158333rem;
+  text-align: center;
+}
+section .sum button {
+  flex: 1;
+  background-color: #fd5102;
+  color: #ffff;
+  text-align: center;
+  border-radius: 5px 5px;
+  height: 0.333333rem;
+  border: none;
+  outline: none;
+  font-size: 0.166667rem;
+}
+section .sum button:hover {
+  cursor: pointer;
+}
+section .retreat {
+  margin-top: 0.356667rem;
+  width: 0.256667rem;
+  height: 0.256667rem;
+  background: url(../images/shoppingCart/后退.png) no-repeat;
+  background-size: 100% 100%;
+}
+hr {
+  margin: 0.25rem 0 0 0;
+}
+footer {
+  padding-top: 0.25rem;
+  background-color: #f0ece7;
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+}
+footer ul li {
+  flex: 1;
+}
+footer ul li h5 {
+  margin-left: 20%;
+}
+footer ul li .ture {
+  float: left;
+  margin-right: 0.066667rem;
+  width: 0.416667rem;
+  height: 0.416667rem;
+  background: url(../images/index/正品.gif) no-repeat;
+  background-size: 100% 100%;
+}
+footer ul li .fast {
+  float: left;
+  margin-right: 0.066667rem;
+  width: 0.416667rem;
+  height: 0.416667rem;
+  background: url(../images/index/物流.gif) no-repeat;
+  background-size: 100% 100%;
+}
+footer ul li .after-sales {
+  float: left;
+  margin-right: 0.066667rem;
+  width: 0.416667rem;
+  height: 0.416667rem;
+  background: url(../images/index/售后.gif) no-repeat;
+  background-size: 100% 100%;
+}
+footer ul li .help {
+  float: left;
+  margin-right: 0.066667rem;
+  width: 0.416667rem;
+  height: 0.416667rem;
+  background: url(../images/index/帮助.gif) no-repeat;
+  background-size: 100% 100%;
+}
+footer ul li .service_text p {
+  font-size: 0.1rem;
+  overflow: hidden;
+}
+footer .mod_help {
+  display: flex;
+  margin-top: 0.125rem;
+}
+footer .mod_help dl {
+  flex: 1;
+}
+footer .mod_help dl .qq {
+  padding-left: 20%;
+  height: 0.416667rem;
+}
+footer .mod_help dl .qq img {
+  width: 30%;
+  height: 100%;
+}
+footer .mod_help dl h5 {
+  padding-left: 20%;
+  margin-bottom: 0.083333rem;
+}
+footer .mod_help dl dt {
+  padding-left: 20%;
+  font-size: 0.116667rem;
+  margin-bottom: 0.083333rem;
+  color: #555454;
+}
+footer .mod_help dl dt:hover {
+  color: red;
+  cursor: pointer;
+}
+footer .copyright ul {
+  margin: 0 auto;
+  width: 30%;
+}
+footer .copyright ul li {
+  text-align: center;
+  font-size: 0.083333rem;
+  border-right: 1px solid #555454;
+}
+footer .copyright ul li:hover {
+  color: red;
+  cursor: pointer;
+}
+footer .copyright h3 {
+  text-align: center;
+  color: red;
+}
+footer .retop {
+  background-color: sienna;
+  color: sienna;
+  width: 0.25rem;
+  height: 0.25rem;
+  position: fixed;
+  bottom: 0.583333rem;
+  right: 0.166667rem;
+  background: url(../images/index/返回顶部.png) no-repeat;
+  border-radius: 50% 50%;
+  display: none;
+}
+.goodsBox li {
+  display: flex;
+}
+.goodsBox li .input_radio {
+  flex: 0.5;
+}
+.goodsBox li .remove {
+  flex: 0.2;
+  background: url(../images/shoppingCart/删除.png) no-repeat;
+  background-size: 40%;
+}
+.goodsBox li .remove:hover {
+  background-size: 50% 50%;
+  background: url(../images/shoppingCart/删除开.png) no-repeat;
+  cursor: pointer;
+  transform: translate(-13px);
+}
+.goodsBox li .picture {
+  flex: 2.5;
+  max-width: 300px;
+  max-height: 200px;
+}
+.goodsBox li .shopName {
+  flex: 1;
+  padding-left: 5px;
+  font-size: 0.15rem;
+}
+.goodsBox li .discribe {
+  flex: 2;
+  font-size: 0.11rem;
+}
+.goodsBox li .price {
+  flex: 0.5;
+}
+.goodsBox li .count {
+  flex: 1.5;
+}

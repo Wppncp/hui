@@ -1,0 +1,248 @@
+@sfont:rgb(85, 84, 84);
+header{
+    width: 100%;
+    height: .808333rem;
+    // background-color: sienna;
+    display: flex;
+    .logoBox{
+            flex: 2;
+            // background-color: skyblue;
+            display: flex;
+            .logo{
+                flex: 1.5;
+                width: .666667rem;
+                height: .666667rem;
+                margin-top: 3%;
+                margin-left: 3%;
+                background:url(../images/index/Mai\ Tai.png)  no-repeat;
+                background-size: 100% 100%;
+            }
+            div{
+                flex: 3;
+                // background-color: springgreen;
+                // display: flex;
+                // flex-direction: column;
+                padding-top: 5%;
+                text-shadow: .025rem .008333rem #f3cccc;
+                color: #c40000;
+                vertical-align: middle;
+                h2{
+                    font-size: .266667rem;
+                }
+                h4{
+                    font-size: .141667rem;
+                }
+            }
+        }
+    .blank{
+        flex: 8;
+        p{
+            vertical-align: middle;
+            float: right;
+            font-size: .125rem;
+            margin: .228333rem;
+            color: @sfont;
+        }
+    }
+}
+section{
+    width: 100%;
+    height: 3.333333rem;
+    // background-color: aqua;
+    display: flex;
+    align-items: center;
+    form{
+        width: 35%;
+        height: 60%;
+        // background-color: rgb(230, 143, 72);
+        margin: 0 auto;
+        line-height: 2;
+        overflow: hidden;
+        dl{
+            font-size: .125rem;
+            display: flex;
+            height: .283333rem;
+            // background-color: #ffffff;
+            margin-top: 5%;
+            dt{
+                flex: 3;
+                width: 100%;
+                background-color: #ffffff;
+                border: 1px  solid black;
+                border-left: none;
+                color: tomato;
+                text-align: center;
+                overflow: hidden;
+                &:hover{
+                    cursor: pointer;
+                    color: rgb(12, 201, 248);
+                }
+            }
+            select{
+                flex: 3;
+                width: 100%;
+                border: 1px solid black;
+                margin: 0 -1px -1px 0;
+                color: @sfont;
+                outline: none;
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+            input{
+                outline: none;
+                flex: 5;
+                width: 50%;
+                border: 1px solid black;
+                padding: 0 0 0 .083333rem;
+            }
+            .tel{
+                margin: 0 0 -1px 0;
+               
+            }
+            .pas{
+               flex: 8;
+            }
+            .pascode{
+                border-right: none;
+            }
+            p{
+                flex: 2;
+                color: @sfont;
+                text-align: end;
+                overflow: hidden;
+            }
+        }
+        .button{
+            font-size: .125rem;
+            width: 80%;
+            height: 13%;
+            margin: 5% 20% 0 20%;
+            color:#ffffff;
+            border: none;
+            border-radius: 3px;
+            background-image: linear-gradient(45deg,rgb(255, 203, 90),rgba(255, 81, 0, 0.842));
+        }
+        .agreement{
+            width: 100%;
+            margin: 5% 20% 0 20%;
+            color: @sfont;
+            font-size: .133333rem;
+            a{
+                color: tomato;
+                cursor: pointer;
+            }
+        }
+    }
+}
+footer{
+    padding-top: .25rem;
+    background-color: #f0ece7;
+    ul{
+        display: flex;
+        justify-content: center;
+        li{
+            flex: 1;
+            h5{
+                margin-left: 20%;
+            }
+            .ture{
+                float: left;
+                margin-right: .066667rem;
+                width: .416667rem;
+                height: .416667rem;
+                background: url(../images/index/正品.gif) no-repeat ;
+                background-size: 100% 100%;
+            }
+            .fast{
+                float: left;
+                margin-right: .066667rem;
+                width: .416667rem;
+                height: .416667rem;
+                background: url(../images/index/物流.gif) no-repeat ;
+                background-size: 100% 100%;
+            }
+            .after-sales{
+                float: left;
+                margin-right: .066667rem;
+                width: .416667rem;
+                height: .416667rem;
+                background: url(../images/index/售后.gif) no-repeat ;
+                background-size: 100% 100%;
+            }
+            .help{
+                float: left;
+                margin-right: .066667rem;
+                width: .416667rem;
+                height: .416667rem;
+                background: url(../images/index/帮助.gif) no-repeat ;
+                background-size: 100% 100%;
+            }
+            .service_text p {
+                font-size: .1rem;
+                overflow: hidden;
+            }
+        }
+    }
+    .mod_help{
+        display: flex;
+        margin-top: .125rem;
+        dl{
+            flex: 1;
+           .qq{
+               padding-left: 20%;
+               height: .416667rem;
+               img{
+                   width: 30%;
+                   height: 100%;
+               }
+           }
+            h5{
+                padding-left: 20%;
+                margin-bottom: .083333rem;
+            }
+            dt{
+                padding-left: 20%;
+                font-size: .116667rem;
+                margin-bottom: .083333rem;
+                color: @sfont;
+                &:hover{
+                    color: red;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .copyright{
+        ul{
+            margin: 0 auto;
+            width: 30%;
+            li{
+                text-align: center;
+                font-size: .083333rem;
+               border-right: 1px solid @sfont;
+               &:hover{
+                color: red;
+                cursor: pointer;
+            }
+            }
+        }
+        h3{
+            text-align: center;
+            color: red;
+        }
+    }
+    .retop{
+    background-color: sienna;
+    color: sienna;
+    width: .25rem;
+    height: .25rem;
+    position: fixed;
+    bottom: .583333rem;
+    right: .166667rem; 
+    background: url(../images/index/返回顶部.png) no-repeat;
+    // background-size: 80% 80%;
+    border-radius: 50% 50%;
+    display: none;
+    }
+}

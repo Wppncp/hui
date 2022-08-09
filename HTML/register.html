@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>惠生活，欢迎您！</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/register.css">
+    <script src="../js/flexble.js" ></script>
+</head>
+<body onselectstart="return false" oncontextmenu="return false">
+     <!-- header -->
+     <header>
+        <dt class="logoBox">
+            <h2 class="logo"></h2>
+            <div>
+                <h2>惠生活</h2>
+                <h4>hui.com</h4>
+            </div>
+        </dt>
+        <dt class="blank">
+            <p>修改建议<img src="../images/login/对话框.png"></p>
+        </dt>
+    </header>
+    <!-- 内容 -->
+    <section>
+        <form action="http://127.0.0.1/hui/php/register.php" method="post" id="" onsubmit="return errors(this)">
+            <dl><p>手机号码&nbsp;&nbsp;</p>
+                <select>
+                    <option value="中国大陆+86">中国大陆&nbsp;+86</option>
+                    <option value="中国台湾+886">中国台湾&nbsp;+886</option>
+                    <option value="中国香港+852">中国香港&nbsp;+852</option>
+                    <option value="中国澳门+853">中国澳门&nbsp;+853</option>
+                </select>
+                <input type="tel" class="tel" placeholder="请输入手机号" name="name">
+                
+            </dl>
+            <dl><p>密码&nbsp;&nbsp;&nbsp;</p><input type="password" class="pas" placeholder="请输入密码" name="password"></dl>
+            <dl><p>验证码&nbsp;&nbsp;&nbsp;</p>
+                <input type="text" class="pascode" placeholder="请输入验证码" name="radom">
+                <dt class="radom_code">获取验证码</dt>
+            </dl>
+            <input type="submit" class="button" value="注册">
+            <p class="agreement"><input type="radio" value="agreement"  name="agreement">我已阅读并同意<a>协议</a></p>
+        </form>
+    </section>
+    <hr>
+    <!-- 页底 -->
+    <footer>
+        <ul>
+            <li>
+                <h5 class="ture"></h5>
+                <div class="service_text">
+                    <h4>正品保障</h4>
+                    <p>正品保障，提供发票</p>
+                </div>
+            </li>
+            <li>
+                <h5 class="fast"></h5>
+                <div class="service_text">
+                    <h4>急速物流</h4>
+                    <p>急速物流，急速送达</p>
+                </div>
+            </li>
+            <li>
+                <h5 class="after-sales"></h5>
+                <div class="service_text">
+                    <h4>售后无忧</h4>
+                    <p>7天无理由退货</p>
+                </div>
+            </li>
+            <li>
+                <h5 class="help"></h5>
+                <div class="service_text">
+                    <h4>帮助中心</h4>
+                    <p>您的购物指南</p>
+                </div>
+            </li>
+        </ul>
+        <div class="mod_help">
+            <dl>
+                <h5>购物指南</h5>
+                <dt>常见问题</dt>
+                <dt>购物流程</dt>
+                <dt>会员介绍</dt>
+            </dl>
+            <dl>
+                <h5>配送方式</h5>
+                <dt>上门自提</dt>
+                <dt>海外配送</dt>
+                <dt>配送费收费标准</dt>
+            </dl>
+            <dl>
+                <h5>售后服务</h5>
+                <dt>售后政策</dt>
+                <dt>价格保护</dt>
+                <dt>退款说明</dt>
+            </dl>
+            <dl>
+                <h5>支付方式</h5>
+                <dt>货到付款</dt>
+                <dt>在线支付</dt>
+                <dt>分期付款</dt>
+            </dl>
+            <dl>
+                <h5>反馈与帮助</h5>
+                <dt class="qq"><img src="../images/index/客服-联系我们.jpg" alt=""></dt>
+                <dt style="color: red;">网站仅供学习</dt>
+            </dl>
+        </div>
+        <div class="copyright">
+            <ul class="we">
+                <li>关于我们</li>
+                <li>联系我们</li>
+                <li>加入我们</li>
+                <li>学习合作</li>
+                <li>学习入驻</li>
+            </ul>
+            <h3 >无备案<br>网站仅供学习参考，如有侵权请联系，立即删除</h3>
+        </div>
+        <div class="retop"></div>
+    </footer>
+    <script src="../js/register.js"></script>
+</body>
+</html>
